@@ -1,0 +1,111 @@
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #fdd835;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 1366px;
+  height: 578px;
+  background: #e0e0e0;
+  display: block;
+  margin: 30px auto 0;
+}
+
+.headquarter {
+  padding: 40px 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.locations div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.message-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 40px;
+}
+
+form {
+  flex: 1;
+}
+
+form input,
+form select,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.message-preview {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+footer {
+  text-align: right;
+  padding: 10px 40px;
+  font-size: 14px;
+  color: #555;
+}
